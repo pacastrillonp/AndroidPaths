@@ -1,9 +1,11 @@
+System directories
 | Method | Result |
 |:-----------|:------------|
 | Environment.getDataDirectory() | /data |
 | Environment.getDownloadCacheDirectory() | /cache | 
 | Environment.getRootDirectory() | /system | 
 
+External storage directories
 | Method | Result |
 |:-----------|:------------|
 | Environment.getExternalStorageDirectory() | /storage/sdcard0 | 
@@ -17,23 +19,24 @@
 | Environment.getExternalStoragePublicDirectory(DIRECTORY_PODCASTS) | /storage/sdcard0/Podcasts | 
 | Environment.getExternalStoragePublicDirectory(DIRECTORY_RINGTONES) | /storage/sdcard0/Ringtones | 
 
+Application directories
 | Method | Result |
 |:-----------|:------------|
-| getCacheDir() | /data/data/_package_/cache | 
-| getFilesDir() | /data/data/_package_/files | 
+| getCacheDir() | /data/data/*package*/cache | 
+| getFilesDir() | /data/data/*package*/files | 
 
+Application External storage directories
 | Method | Result |
 |:-----------|:------------|
-| getExternalCacheDir() | /storage/sdcard0/Android/data/_package_/cache | 
-
-| Method | Result |
-|:-----------|:------------|
-| getExternalFilesDir(DIRECTORY_ALARMS) | /storage/sdcard0/Android/data/_package_/files/Alarms | 
-| getExternalFilesDir(DIRECTORY_DCIM) | /storage/sdcard0/Android/data/_package_/files/DCIM | 
-| getExternalFilesDir(DIRECTORY_DOWNLOADS) | /storage/sdcard0/Android/data/_package_/files/Download | 
-| getExternalFilesDir(DIRECTORY_MOVIES) | /storage/sdcard0/Android/data/_package_/files/Movies | 
-| getExternalFilesDir(DIRECTORY_MUSIC) | /storage/sdcard0/Android/data/_package_/files/Music | 
-| getExternalFilesDir(DIRECTORY_NOTIFICATIONS) | /storage/sdcard0/Android/data/_package_/files/Notifications | 
-| getExternalFilesDir(DIRECTORY_PICTURES) | /storage/sdcard0/Android/data/_package_/files/Pictures | 
-| getExternalFilesDir(DIRECTORY_PODCASTS) | /storage/sdcard0/Android/data/_package_/files/Podcasts | 
-| getExternalFilesDir(DIRECTORY_RINGTONES) | /storage/sdcard0/Android/data/_package_/files/Ringtones | 
+| getExternalCacheDir() | /storage/sdcard0/Android/data/*package*/cache | 
+| | |
+| getExternalFilesDir(null) | /storage/sdcard0/Android/data/*package*/files |
+| getExternalFilesDir(DIRECTORY_ALARMS) | /storage/sdcard0/Android/data/*package*/files/Alarms | 
+| getExternalFilesDir(DIRECTORY_DCIM) | /storage/sdcard0/Android/data/*package*/files/DCIM | 
+| getExternalFilesDir(DIRECTORY_DOWNLOADS) | /storage/sdcard0/Android/data/*package*/files/Download | 
+| getExternalFilesDir(DIRECTORY_MOVIES) | /storage/sdcard0/Android/data/*package*/files/Movies | 
+| getExternalFilesDir(DIRECTORY_MUSIC) | /storage/sdcard0/Android/data/*package*/files/Music | 
+| getExternalFilesDir(DIRECTORY_NOTIFICATIONS) | /storage/sdcard0/Android/data/*package*/files/Notifications | 
+| getExternalFilesDir(DIRECTORY_PICTURES) | /storage/sdcard0/Android/data/*package*/files/Pictures | 
+| getExternalFilesDir(DIRECTORY_PODCASTS) | /storage/sdcard0/Android/data/*package*/files/Podcasts | 
+| getExternalFilesDir(DIRECTORY_RINGTONES) | /storage/sdcard0/Android/data/*package*/files/Ringtones | 

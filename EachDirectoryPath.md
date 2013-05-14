@@ -19,21 +19,21 @@
 
 | Method | Result |
 |:-----------|:------------|
-| getCacheDir() | /data/data/com.example.eachdirectorypath/cache | 
-| getFilesDir() | /data/data/com.example.eachdirectorypath/files | 
+| getCacheDir() | /data/data/_package_/cache | 
+| getFilesDir() | /data/data/_package_/files | 
 
 | Method | Result |
 |:-----------|:------------|
-| getExternalCacheDir() | /storage/sdcard0/Android/data/com.example.eachdirectorypath/cache | 
+| getExternalCacheDir() | /storage/sdcard0/Android/data/_package_/cache | 
 
 | Method | Result |
 |:-----------|:------------|
-| getExternalFilesDir(DIRECTORY_ALARMS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Alarms | 
-| getExternalFilesDir(DIRECTORY_DCIM) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/DCIM | 
-| getExternalFilesDir(DIRECTORY_DOWNLOADS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Download | 
-| getExternalFilesDir(DIRECTORY_MOVIES) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Movies | 
-| getExternalFilesDir(DIRECTORY_MUSIC) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Music | 
-| getExternalFilesDir(DIRECTORY_NOTIFICATIONS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Notifications | 
-| getExternalFilesDir(DIRECTORY_PICTURES) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Pictures | 
-| getExternalFilesDir(DIRECTORY_PODCASTS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Podcasts | 
-| getExternalFilesDir(DIRECTORY_RINGTONES) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Ringtones | 
+| getExternalFilesDir(DIRECTORY_ALARMS) | /storage/sdcard0/Android/data/_package_/files/Alarms | 
+| getExternalFilesDir(DIRECTORY_DCIM) | /storage/sdcard0/Android/data/_package_/files/DCIM | 
+| getExternalFilesDir(DIRECTORY_DOWNLOADS) | /storage/sdcard0/Android/data/_package_/files/Download | 
+| getExternalFilesDir(DIRECTORY_MOVIES) | /storage/sdcard0/Android/data/_package_/files/Movies | 
+| getExternalFilesDir(DIRECTORY_MUSIC) | /storage/sdcard0/Android/data/_package_/files/Music | 
+| getExternalFilesDir(DIRECTORY_NOTIFICATIONS) | /storage/sdcard0/Android/data/_package_/files/Notifications | 
+| getExternalFilesDir(DIRECTORY_PICTURES) | /storage/sdcard0/Android/data/_package_/files/Pictures | 
+| getExternalFilesDir(DIRECTORY_PODCASTS) | /storage/sdcard0/Android/data/_package_/files/Podcasts | 
+| getExternalFilesDir(DIRECTORY_RINGTONES) | /storage/sdcard0/Android/data/_package_/files/Ringtones | 

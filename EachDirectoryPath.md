@@ -1,11 +1,9 @@
-System directories
 | Method | Result |
 |:-----------|:------------|
 | Environment.getDataDirectory() | /data |
 | Environment.getDownloadCacheDirectory() | /cache | 
 | Environment.getRootDirectory() | /system | 
 
-External storage directories
 | Method | Result |
 |:-----------|:------------|
 | Environment.getExternalStorageDirectory() | /storage/sdcard0 | 
@@ -19,13 +17,11 @@ External storage directories
 | Environment.getExternalStoragePublicDirectory(DIRECTORY_PODCASTS) | /storage/sdcard0/Podcasts | 
 | Environment.getExternalStoragePublicDirectory(DIRECTORY_RINGTONES) | /storage/sdcard0/Ringtones | 
 
-Application directories
 | Method | Result |
 |:-----------|:------------|
 | getCacheDir() | /data/data/*package*/cache | 
 | getFilesDir() | /data/data/*package*/files | 
 
-Application External storage directories
 | Method | Result |
 |:-----------|:------------|
 | getExternalCacheDir() | /storage/sdcard0/Android/data/*package*/cache | 

@@ -1,4 +1,3 @@
-
 |Environment.getDataDirectory()|/data|
 |Environment.getDownloadCacheDirectory()|/cache|
 |Environment.getRootDirectory()|/system|

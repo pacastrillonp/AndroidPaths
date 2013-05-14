@@ -1,7 +1,8 @@
+|:-----------|:------------|
 | Environment.getDataDirectory() | /data | 
 | Environment.getDownloadCacheDirectory() | /cache | 
 | Environment.getRootDirectory() | /system | 
-
+| | |
 | Environment.getExternalStorageDirectory() | /storage/sdcard0 | 
 | Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_ALARMS) | /storage/sdcard0/Alarms | 
 | Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) | /storage/sdcard0/DCIM | 
@@ -12,12 +13,12 @@
 | Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) | /storage/sdcard0/Pictures | 
 | Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PODCASTS) | /storage/sdcard0/Podcasts | 
 | Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_RINGTONES) | /storage/sdcard0/Ringtones | 
-
+| | |
 | getCacheDir() | /data/data/com.example.eachdirectorypath/cache | 
 | getFilesDir() | /data/data/com.example.eachdirectorypath/files | 
-
+| | |
 | getExternalCacheDir() | /storage/sdcard0/Android/data/com.example.eachdirectorypath/cache | 
-
+| | |
 | getExternalFilesDir(Environment.DIRECTORY_ALARMS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Alarms | 
 | getExternalFilesDir(Environment.DIRECTORY_DCIM) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/DCIM | 
 | getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS) | /storage/sdcard0/Android/data/com.example.eachdirectorypath/files/Download | 

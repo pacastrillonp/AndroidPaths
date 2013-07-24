@@ -27,6 +27,7 @@ Application directories
 |:-----------|:------------|
 | getCacheDir() | /data/data/*package*/cache | 
 | getFilesDir() | /data/data/*package*/files | 
+| getFilesDir().getParent() | /data/data/*package* | 
 
 Application External storage directories
 
